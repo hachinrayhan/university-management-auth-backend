@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const port = process.env.PORT || 9000
-const database_uri = process.env.DATABASE_URL
+const database_url = process.env.DATABASE_URL
 
 async function main() {
   try {
